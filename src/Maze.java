@@ -24,17 +24,18 @@ public class Maze {
 
         // Add internal walls
         addWall(5, 3, 4, 1); // Vertical wall
+        addWall(11, 6, 5, 1); // Vertical wall
+        addWall(9, 11, 4, 1); // Vertical wall
+        addWall(2, 5, 4, 1); // Vertical wall
+        addWall(12, 2, 3, 1); // Vertical wall
         addWall(7, 5, 3, 2); // Horizontal wall
         addWall(2, 11, 4, 2); // Horizontal wall
-        addWall(11, 6, 5, 1); // Vertical wall
         addWall(8, 8, 4, 2); // Horizontal wall
-        addWall(9, 11, 4, 1); // Horizontal wall
         addWall(9, 14, 4, 2); // Horizontal wall
         addWall(6, 1, 5, 2); // Horizontal wall
-        addWall(2, 5, 4, 1); // Horizontal wall
         addWall(5, 9, 2, 2); // Horizontal wall
         addWall(4, 13, 3, 2); // Horizontal wall
-        addWall(12, 2, 3, 1); // Horizontal wall
+
         // Add more walls as needed
     }
 
